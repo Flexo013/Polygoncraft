@@ -1,0 +1,4331 @@
+groups:
+  visitor:
+    options:
+      rank: '990'
+      default: 'true'
+      suffix: '&f[Visitor]'
+    inheritance: []
+    permissions:
+    - capsblock.ignore
+    - -essentials.msg
+    - essentials.afk
+    - essentials.afk.auto
+    - essentials.afk.kickexempt
+    - essentials.compass
+    - essentials.depth
+    - essentials.exp
+    - essentials.getpos
+    - essentials.help
+    - essentials.helpop
+    - essentials.itemdb
+    - essentials.jail.allow.help
+    - essentials.jail.allow.helpop
+    - essentials.jail.allow.rules
+    - essentials.kit
+    - essentials.list
+    - essentials.mail
+    - essentials.mail.send
+    - essentials.motd
+    - essentials.ping
+    - essentials.realname
+    - essentials.recipe
+    - essentials.rules
+    - essentials.seen
+    - essentials.signs.break.disposal
+    - essentials.signs.create.disposal
+    - essentials.signs.use.disposal
+    - essentials.signs.use.heal
+    - essentials.signs.use.mail
+    - essentials.signs.use.repair
+    - essentials.signs.use.warp
+    - essentials.spawn
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.worlds.AoD
+    - essentials.worlds.BShip
+    - essentials.worlds.Build
+    - essentials.worlds.C4
+    - essentials.worlds.Centro
+    - essentials.worlds.Gardia
+    - essentials.worlds.KotL
+    - essentials.worlds.MA
+    - essentials.worlds.MGHub
+    - essentials.worlds.Mirum
+    - essentials.worlds.Nios
+    - essentials.worlds.Ozia
+    - essentials.worlds.Parkour
+    - essentials.worlds.Plade
+    - essentials.worlds.PvP
+    - essentials.worlds.SG
+    - essentials.worlds.Silvane
+    - essentials.worlds.SkyHub
+    - essentials.worlds.Skylu
+    - essentials.worlds.Spleef
+    - essentials.worlds.TTT
+    - essentials.worlds.Volca
+    - essentials.worlds.Xiloo
+    - essentials.worlds.Zinlu
+    - herochat.autojoin.alert
+    - herochat.autojoin.global
+    - herochat.focus.global
+    - herochat.force.join.alert
+    - herochat.join.global
+    - herochat.leave.global
+    - herochat.pm
+    - herochat.speak.global
+    - hyperconomy.shop.ServerShop
+    - hyperconomy.use
+    - lockette.user.create.*
+    - multiverse.access.AoD
+    - multiverse.access.BShip
+    - multiverse.access.Build
+    - multiverse.access.C4
+    - multiverse.access.Centro
+    - multiverse.access.Gardia
+    - multiverse.access.KotL
+    - multiverse.access.MA
+    - multiverse.access.MGHub
+    - multiverse.access.Mirum
+    - multiverse.access.Nios
+    - multiverse.access.Ozia
+    - multiverse.access.Parkour
+    - multiverse.access.Plade
+    - multiverse.access.PvP
+    - multiverse.access.SG
+    - multiverse.access.Silvane
+    - multiverse.access.SkyHub
+    - multiverse.access.Skylu
+    - multiverse.access.Spleef
+    - multiverse.access.TTT
+    - multiverse.access.Volca
+    - multiverse.access.Xiloo
+    - multiverse.access.Zinlu
+    - -ontime.welcome_msg
+    - ontime.me
+    - ontime.rankup
+    - ontime.reward.onehourplaytime
+    - ontime.rewards.receive
+    - ontime.track
+    - serversigns.use
+    - stargate.use
+    - stargate.world.AoD
+    - stargate.world.BShip
+    - stargate.world.Build
+    - stargate.world.C4
+    - stargate.world.Centro
+    - stargate.world.Gardia
+    - stargate.world.KotL
+    - stargate.world.MA
+    - stargate.world.MGHub
+    - stargate.world.Mirum
+    - stargate.world.Nios
+    - stargate.world.Ozia
+    - stargate.world.Parkour
+    - stargate.world.Plade
+    - stargate.world.PvP
+    - stargate.world.SG
+    - stargate.world.Silvane
+    - stargate.world.SkyHub
+    - stargate.world.Skylu
+    - stargate.world.Spleef
+    - stargate.world.TTT
+    - stargate.world.Volca
+    - stargate.world.Xiloo
+    - stargate.world.Zinlu
+    - essentials.sethome.multiple.visitor
+    worlds:
+      Centro:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.skull
+        - essentials.skull.spawn
+        - essentials.hat
+        - essentials.fly
+        - essentials.fly.safelogin
+      Xiloo:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.skull
+        - essentials.skull.spawn
+        - essentials.hat
+        - worldguard.region.addmember.own.*
+        - worldguard.region.removemember.own.*
+        - essentials.home
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - essentials.kits.color
+        - essentials.kits.starter
+        - stables.summon
+        - stables.find
+        - stables.list
+        - stables.info
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.axes.all
+        - -mcmmo.ability.blastmining.all
+        - mcmmo.ability.excavation.all
+        - mcmmo.ability.fishing.all
+        - mcmmo.ability.herbalism.all
+        - mcmmo.ability.mining.all
+        - -mcmmo.ability.mining.blastmining.all
+        - -mcmmo.ability.repair.all
+        - mcmmo.ability.smelting.all
+        - mcmmo.ability.swords.all
+        - mcmmo.ability.taming.all
+        - mcmmo.ability.unarmed.all
+        - mcmmo.ability.woodcutting.all
+        - -mcmmo.chat.all
+        - mcmmo.commands.acrobatics
+        - mcmmo.commands.archery
+        - mcmmo.commands.axes
+        - mcmmo.commands.excavation
+        - mcmmo.commands.fishing
+        - mcmmo.commands.herbalism
+        - mcmmo.commands.inspect
+        - mcmmo.commands.mcability
+        - -mcmmo.commands.mchud
+        - mcmmo.commands.mcmmo.all
+        - mcmmo.commands.mcrank
+        - mcmmo.commands.mcstats
+        - mcmmo.commands.mining
+        - -mcmmo.commands.party.all
+        - -mcmmo.commands.ptp
+        - -mcmmo.commands.ptp.accept
+        - -mcmmo.commands.ptp.acceptall
+        - -mcmmo.commands.ptp.toggle
+        - -mcmmo.commands.repair
+        - mcmmo.commands.smelting
+        - mcmmo.commands.swords
+        - mcmmo.commands.taming
+        - mcmmo.commands.unarmed
+        - mcmmo.commands.woodcutting
+        - -mcmmo.commands.xplock.all
+        - -mcmmo.item.all
+        - -mcmmo.party.all
+        - -mcmmo.perks.all
+        - hyperconomy.buy
+        - hyperconomy.sell
+        - hyperconomy.value
+        - hyperconomy.sellall
+        - hyperconomy.info
+        - hyperconomy.top
+        - hyperconomy.xp
+        - hyperconomy.chestshop
+        - hyperconomy.buysign
+        - hyperconomy.sellsign
+        - hyperconomy.pay
+      Silvane:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - essentials.skull
+        - essentials.skull.spawn
+        - essentials.hat
+        - essentials.kits.color
+        - essentials.kits.starter
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.axes.all
+        - -mcmmo.ability.blastmining.all
+        - mcmmo.ability.excavation.all
+        - mcmmo.ability.fishing.all
+        - mcmmo.ability.herbalism.all
+        - mcmmo.ability.mining.all
+        - -mcmmo.ability.mining.blastmining.all
+        - -mcmmo.ability.repair.all
+        - mcmmo.ability.smelting.all
+        - mcmmo.ability.swords.all
+        - mcmmo.ability.taming.all
+        - mcmmo.ability.unarmed.all
+        - mcmmo.ability.woodcutting.all
+        - -mcmmo.chat.all
+        - mcmmo.commands.acrobatics
+        - mcmmo.commands.archery
+        - mcmmo.commands.axes
+        - mcmmo.commands.excavation
+        - mcmmo.commands.fishing
+        - mcmmo.commands.herbalism
+        - mcmmo.commands.inspect
+        - mcmmo.commands.mcability
+        - -mcmmo.commands.mchud
+        - mcmmo.commands.mcmmo.all
+        - mcmmo.commands.mcrank
+        - mcmmo.commands.mcstats
+        - mcmmo.commands.mining
+        - -mcmmo.commands.party.all
+        - -mcmmo.commands.ptp
+        - -mcmmo.commands.ptp.accept
+        - -mcmmo.commands.ptp.acceptall
+        - -mcmmo.commands.ptp.toggle
+        - -mcmmo.commands.repair
+        - mcmmo.commands.smelting
+        - mcmmo.commands.swords
+        - mcmmo.commands.taming
+        - mcmmo.commands.unarmed
+        - mcmmo.commands.woodcutting
+        - -mcmmo.commands.xplock.all
+        - -mcmmo.item.all
+        - -mcmmo.party.all
+        - -mcmmo.perks.all
+        - -hyperconomy.buy
+        - -hyperconomy.sell
+        - -hyperconomy.value
+        - -hyperconomy.sellall
+        - -hyperconomy.info
+        - -hyperconomy.top
+        - -hyperconomy.xp
+        - -hyperconomy.chestshop
+        - -hyperconomy.buysign
+        - -hyperconomy.sellsign
+        - -hyperconomy.pay
+      Blazon:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - essentials.skull
+        - essentials.skull.spawn
+        - essentials.hat
+        - essentials.kits.color
+        - essentials.kits.starter
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.axes.all
+        - -mcmmo.ability.blastmining.all
+        - mcmmo.ability.excavation.all
+        - mcmmo.ability.fishing.all
+        - mcmmo.ability.herbalism.all
+        - mcmmo.ability.mining.all
+        - -mcmmo.ability.mining.blastmining.all
+        - -mcmmo.ability.repair.all
+        - mcmmo.ability.smelting.all
+        - mcmmo.ability.swords.all
+        - mcmmo.ability.taming.all
+        - mcmmo.ability.unarmed.all
+        - mcmmo.ability.woodcutting.all
+        - -mcmmo.chat.all
+        - mcmmo.commands.acrobatics
+        - mcmmo.commands.archery
+        - mcmmo.commands.axes
+        - mcmmo.commands.excavation
+        - mcmmo.commands.fishing
+        - mcmmo.commands.herbalism
+        - mcmmo.commands.inspect
+        - mcmmo.commands.mcability
+        - -mcmmo.commands.mchud
+        - mcmmo.commands.mcmmo.all
+        - mcmmo.commands.mcrank
+        - mcmmo.commands.mcstats
+        - mcmmo.commands.mining
+        - -mcmmo.commands.party.all
+        - -mcmmo.commands.ptp
+        - -mcmmo.commands.ptp.accept
+        - -mcmmo.commands.ptp.acceptall
+        - -mcmmo.commands.ptp.toggle
+        - -mcmmo.commands.repair
+        - mcmmo.commands.smelting
+        - mcmmo.commands.swords
+        - mcmmo.commands.taming
+        - mcmmo.commands.unarmed
+        - mcmmo.commands.woodcutting
+        - -mcmmo.commands.xplock.all
+        - -mcmmo.item.all
+        - -mcmmo.party.all
+        - -mcmmo.perks.all
+        - -hyperconomy.buy
+        - -hyperconomy.sell
+        - -hyperconomy.value
+        - -hyperconomy.sellall
+        - -hyperconomy.info
+        - -hyperconomy.top
+        - -hyperconomy.xp
+        - -hyperconomy.chestshop
+        - -hyperconomy.buysign
+        - -hyperconomy.sellsign
+        - -hyperconomy.pay
+      Sesa:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - essentials.skull
+        - essentials.skull.spawn
+        - essentials.hat
+        - essentials.kits.color
+        - essentials.kits.starter
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.archery.all
+        - mcmmo.ability.axes.all
+        - -mcmmo.ability.blastmining.all
+        - mcmmo.ability.excavation.all
+        - mcmmo.ability.fishing.all
+        - mcmmo.ability.herbalism.all
+        - mcmmo.ability.mining.all
+        - -mcmmo.ability.mining.blastmining.all
+        - -mcmmo.ability.repair.all
+        - mcmmo.ability.smelting.all
+        - mcmmo.ability.swords.all
+        - mcmmo.ability.taming.all
+        - mcmmo.ability.unarmed.all
+        - mcmmo.ability.woodcutting.all
+        - -mcmmo.chat.all
+        - mcmmo.commands.acrobatics
+        - mcmmo.commands.archery
+        - mcmmo.commands.axes
+        - mcmmo.commands.excavation
+        - mcmmo.commands.fishing
+        - mcmmo.commands.herbalism
+        - mcmmo.commands.inspect
+        - mcmmo.commands.mcability
+        - -mcmmo.commands.mchud
+        - mcmmo.commands.mcmmo.all
+        - mcmmo.commands.mcrank
+        - mcmmo.commands.mcstats
+        - mcmmo.commands.mining
+        - -mcmmo.commands.party.all
+        - -mcmmo.commands.ptp
+        - -mcmmo.commands.ptp.accept
+        - -mcmmo.commands.ptp.acceptall
+        - -mcmmo.commands.ptp.toggle
+        - -mcmmo.commands.repair
+        - mcmmo.commands.smelting
+        - mcmmo.commands.swords
+        - mcmmo.commands.taming
+        - mcmmo.commands.unarmed
+        - mcmmo.commands.woodcutting
+        - -mcmmo.commands.xplock.all
+        - -mcmmo.item.all
+        - -mcmmo.party.all
+        - -mcmmo.perks.all
+        - -hyperconomy.buy
+        - -hyperconomy.sell
+        - -hyperconomy.value
+        - -hyperconomy.sellall
+        - -hyperconomy.info
+        - -hyperconomy.top
+        - -hyperconomy.xp
+        - -hyperconomy.chestshop
+        - -hyperconomy.buysign
+        - -hyperconomy.sellsign
+        - -hyperconomy.pay
+      SkyHub:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - usb.island.*
+        - usb.party.*
+        - usb.extra.addwarp
+      Skylu:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - usb.island.*
+        - usb.party.*
+        - usb.extra.addwarp
+      Zinlu:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - usb.island.*
+        - usb.party.*
+        - usb.extra.addwarp
+      Ozia:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - plotme.use.claim
+        - plotme.use.auto
+        - plotme.use.home
+        - plotme.use.info
+        - plotme.use.list
+        - plotme.use.add
+        - plotme.use.remove
+        - plotme.limit.1
+        - essentials.gamemode
+        - essentials.item
+      Plade:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - plotme.use.claim
+        - plotme.use.auto
+        - plotme.use.home
+        - plotme.use.info
+        - plotme.use.list
+        - plotme.use.add
+        - plotme.use.remove
+        - plotme.limit.1
+        - essentials.gamemode
+        - essentials.item
+      Mirum:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - essentials.gamemode
+        - essentials.item
+      Nios:
+        permissions:
+        - bungee.skyblock
+        - bungee.lobby
+        - bungee.hop
+        - bungee.economy
+        - mycommand.potagrowl
+        - mycommand.potabite
+        - mycommand.potato
+        - essentials.delhome
+        - essentials.sethome
+        - essentials.sethome.multiple
+        - essentials.gamemode
+        - essentials.item
+  novice:
+    options:
+      rank: '980'
+      suffix: '&7[Novice]'
+    inheritance:
+    - visitor
+    permissions:
+    - essentials.sethome.multiple.novice
+    worlds:
+      Ozia:
+        permissions:
+        - plotme.limit.2
+      Plade:
+        permissions:
+        - plotme.limit.2
+  resident:
+    options:
+      rank: '970'
+      rank-ladder: economy
+      suffix: '&e[Resident]'
+    inheritance:
+    - novice
+    permissions:
+    - essentials.sethome.multiple.resident
+    - essentials.worlds.blazon
+    - essentials.worlds.sesa
+    - multiverse.access.blazon
+    - multiverse.access.sesa
+  wealthy:
+    options:
+      rank: '960'
+      rank-ladder: economy
+      suffix: '&a[Wealthy]'
+    inheritance:
+    - resident
+    permissions:
+    - essentials.sethome.multiple.wealthy
+  millionaire:
+    options:
+      rank: '950'
+      rank-ladder: economy
+      suffix: '&b[Millionaire]'
+    inheritance:
+    - wealthy
+    permissions:
+    - essentials.sethome.multiple.millionaire
+  royalty:
+    options:
+      rank: '940'
+      rank-ladder: economy
+      suffix: '&3[Royalty]'
+    inheritance:
+    - millionaire
+    permissions:
+    - essentials.sethome.multiple.royalty
+  ecocustom:
+    options:
+      rank: '930'
+      rank-ladder: economy
+      suffix: '&3[CustomTag]'
+    inheritance:
+    - royalty
+    permissions:
+    - essentials.sethome.multiple.ecocustom
+  builder:
+    options:
+      rank: '970'
+      rank-ladder: creative
+      suffix: '&e[Builder]'
+    inheritance:
+    - novice
+    permissions:
+    - essentials.sethome.multiple.builder
+    worlds:
+      Ozia:
+        permissions:
+        - plotme.limit.3
+      Plade:
+        permissions:
+        - plotme.limit.3
+  craftsman:
+    options:
+      rank: '960'
+      rank-ladder: creative
+      suffix: '&a[Craftsman]'
+    inheritance:
+    - builder
+    permissions:
+    - essentials.sethome.multiple.craftsman
+    worlds:
+      Ozia:
+        permissions:
+        - plotme.limit.4
+      Plade:
+        permissions:
+        - plotme.limit.4
+  artisan:
+    options:
+      rank: '950'
+      rank-ladder: creative
+      suffix: '&b[Artisan]'
+    inheritance:
+    - craftsman
+    permissions:
+    - essentials.sethome.multiple.artisan
+    worlds:
+      Ozia:
+        permissions:
+        - plotme.limit.5
+      Plade:
+        permissions:
+        - plotme.limit.5
+  architect:
+    options:
+      rank: '940'
+      rank-ladder: creative
+      suffix: '&3[Architect]'
+    inheritance:
+    - artisan
+    permissions:
+    - essentials.sethome.multiple.architect
+    worlds:
+      Ozia:
+        permissions:
+        - plotme.limit.6
+      Plade:
+        permissions:
+        - plotme.limit.6
+  creativecustom:
+    options:
+      rank: '930'
+      rank-ladder: creative
+      suffix: '&3[CustomTag]'
+    inheritance:
+    - architect
+    permissions:
+    - essentials.sethome.multiple.creativecustom
+  skybuilder:
+    options:
+      rank: '970'
+      rank-ladder: skyblock
+      suffix: '&e[SkyBuilder]'
+    inheritance:
+    - novice
+    permissions:
+    - essentials.sethome.multiple.skybuilder
+    - essentials.kits.skybuilder
+  skyarchitect:
+    options:
+      rank: '960'
+      rank-ladder: skyblock
+      suffix: '&a[SkyArchitect]'
+    inheritance:
+    - skybuilder
+    permissions:
+    - essentials.sethome.multiple.skyarchitect
+    - essentials.kits.skyarchitect
+  skymaster:
+    options:
+      rank: '950'
+      rank-ladder: skyblock
+      suffix: '&b[SkyMaster]'
+    inheritance:
+    - skyarchitect
+    permissions:
+    - essentials.sethome.multiple.skymaster
+    - essentials.kits.skymaster
+  skylord:
+    options:
+      rank: '940'
+      rank-ladder: skyblock
+      suffix: '&3[SkyLord]'
+    inheritance:
+    - skymaster
+    permissions:
+    - essentials.sethome.multiple.skylord
+    - essentials.kits.skylord
+  skycustom:
+    options:
+      rank: '930'
+      rank-ladder: skyblock
+      suffix: '&3[CustomTag]'
+    inheritance:
+    - skylord
+    permissions:
+    - essentials.sethome.multiple.skycustom
+    - essentials.kits.skycustom
+  trialmod:
+    options:
+      rank: '890'
+      rank-ladder: staff
+      prefix: '&c&l[TrialMod]'
+    inheritance:
+    - novice
+    permissions:
+    - essentials.getpos.others
+    - essentials.lag
+    - essentials.sethome.multiple.trialmod
+    - essentials.back
+    - essentials.enderchest.others
+    - essentials.invsee
+    - essentials.near
+    - essentials.spawn.others
+    - essentials.togglejail
+    - essentials.togglejail.offline
+    - essentials.jails
+    - essentials.teleport.cooldown.bypass
+    - essentials.teleport.timer.bypass
+    - essentials.top
+    - essentials.tp
+    - essentials.tp.others
+    - essentials.tphere
+    - essentials.warp.otherplayers
+    - essentials.whois
+    - herochat.admin.unignore
+    - herochat.autojoin.alert
+    - herochat.focus.alert
+    - herochat.join.alert
+    - herochat.speak.alert
+    - herochat.autojoin.staff
+    - herochat.focus.staff
+    - herochat.join.staff
+    - herochat.speak.staff
+    - herochat.kick.global
+    - herochat.mute.global
+    - herochat.mute
+    - mcbans.announce
+    - mcbans.ban.local
+    - mcbans.ban.temp
+    - mcbans.kick
+    - mcbans.lookup.ban
+    - mcbans.lookup.player
+    - mcbans.view.alts
+    - mcbans.view.bans
+    - mcbans.view.staff
+    - ontime.afk.notify
+    - ontime.other
+    worlds:
+      Xiloo:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+        - logblock.lookup
+        - logblock.spawnTools
+        - logblock.tools.tool
+        - logblock.tools.toolblock
+        - essentials.tppos
+        - worldguard.region.wand
+        - worldguard.region.remove.*
+        - worldguard.region.redefine.*
+        - worldguard.region.define
+        - worldedit.wand.toggleeditwand
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Silvane:
+        permissions:
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Blazon:
+        permissions:
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Sesa:
+        permissions:
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Ozia:
+        permissions:
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+        permissions:
+        - plotme.admin.claim.other
+        - plotme.admin.home.other
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Plade:
+        permissions:
+        - plotme.admin.claim.other
+        - plotme.admin.home.other
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Mirum:
+        permissions:
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+      Nios:
+        permissions:
+        - worldedit.navigation.thru.commands
+        - worldedit.navigation.unstuck
+  moderator:
+    options:
+      rank: '880'
+      rank-ladder: staff
+      prefix: '&c&l[Mod]'
+    inheritance:
+    - trialmod
+    permissions:
+    - essentials.sethome.multiple.moderator
+    - lockette.admin.bypass
+    - essentials.enderchest.modify
+    - essentials.invsee.modify
+    - nocheatplus.checks.chat.*
+    - alphachest.admin
+    worlds:
+      Xiloo:
+        permissions:
+        - worldedit.drain
+        - worldedit.fixlava
+        - worldedit.fixwater
+        - worldedit.tool.deltree
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.speed.walk
+        - worldguard.region.(removemember|addmember).*
+        - alphachest.chest
+      Silvane:
+        permissions:
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.speed.walk
+        - alphachest.chest
+      Blazon:
+        permissions:
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.speed.walk
+        - alphachest.chest
+      Sesa:
+        permissions:
+        - essentials.speed
+        - essentials.speed.fly
+        - essentials.speed.walk
+        - alphachest.chest
+      Ozia:
+        permissions:
+        - plotme.admin.reset
+        - plotme.admin.clear
+        - plotme.admin.add
+        - plotme.admin.remove
+      Plade:
+        permissions:
+        - plotme.admin.add
+        - plotme.admin.remove
+  admin:
+    options:
+      rank: '870'
+      rank-ladder: staff
+      prefix: '&9&l[Admin]'
+    inheritance:
+    - moderator
+    permissions:
+    - essentials.sethome.multiple.admin
+    - mcbans.ban.ip
+    - mcbans.ban.global
+    - mcbans.unban
+    - herochat.autojoin.admin
+    - herochat.focus.admin
+    - herochat.join.admin
+    - herochat.speak.admin
+    - alphachest.savechests
+    - auction.admin
+    - essentials.delhome.others
+    - essentials.warp.*
+    - lockette.admin.break
+    - lockette.admin.create.*
+    - lockette.admin.snoop
+    - mcbans.lookup.alt
+    - nocheatplus.command.info
+    - nocheatplus.command.notify
+    - nocheatplus.notify
+    worlds:
+      Xiloo:
+        permissions:
+        - logblock.rollback
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+        - essentials.sethome.others
+      Silvane:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+        - essentials.sethome.others
+      Blazon:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+        - essentials.sethome.others
+      Sesa:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+        - essentials.sethome.others
+      Ozia:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+      Plade:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+      Mirum:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+      Nios:
+        permissions:
+        - essentials.vanish
+        - worldedit.navigation.jumpto.command
+        - worldedit.navigation.jumpto.tool
+        - worldedit.navigation.thru.command
+        - worldedit.navigation.thru.tool
+  owner:
+    options:
+      rank: '1'
+      rank-ladder: staff
+      prefix: '&f&l[&4&lOwner&f&l]&4&l'
+    inheritance:
+    - admin
+    permissions:
+    - worldedit.navigation.thru.tool
+    - worldedit.navigation.jumpto.tool
+    - worldedit.override.bedrock
+    - worldedit.anyblock
+    - worldedit.inventory.unrestricted
+    - worldedit.limit.unrestricted
+    - worldedit.*
+    - worldborder.debug
+    - worldborder.reload
+    - worldborder.dynmapmsg
+    - worldborder.dynmap
+    - worldborder.setmsg
+    - worldborder.getmsg
+    - worldborder.wshape
+    - worldborder.fillautosave
+    - worldborder.trim
+    - worldborder.fill
+    - worldborder.knockback
+    - worldborder.shape
+    - worldborder.list
+    - worldborder.clear
+    - worldborder.radius
+    - worldborder.set
+    - worldborder.help
+    - vault.admin
+    - touchscreenholograms.admin
+    - stargate.admin
+    - stargate.free
+    - stargate.destroy
+    - stargate.create
+    - stargate.option
+    - se.dforce
+    - se.force
+    - se.editCol
+    - se.edit
+    - serversigns.admin
+    - serverlistplus.admin
+    - servercaster.cast
+    - servercaster.reload
+    - permissions.*
+    - ontime.test
+    - ontime.suspend
+    - ontime.save
+    - ontime.rewards.admin
+    - ontime.remove
+    - ontime.report
+    - ontime.moduser
+    - nocheatplus.mods.*
+    - nocheatplus.checks.*
+    - nocheatplus.checks
+    - nocheatplus.bypass.denylogin
+    - nocheatplus.command.kicklist
+    - nocheatplus.command.version
+    - nocheatplus.command.plugins
+    - nocheatplus.command.reload
+    - nocheatplus.command.info
+    - nocheatplus.admin.debug
+    - nocheatplus.admin
+    - multiverse.core.unload
+    - multiverse.core.remove
+    - multiverse.core.purge
+    - multiverse.core.delete
+    - multiverse.core.spawn.set
+    - multiverse.core.spawn.self
+    - multiverse.core.spawn.other
+    - multiverse.core.reload
+    - multiverse.core.modify.*
+    - multiverse.core.modify
+    - multiverse.core.import
+    - multiverse.core.create
+    - multiverse.core.list.worlds
+    - multiverse.core.list.who
+    - multiverse.core.list.environments
+    - multiverse.core.info
+    - multiverse.core.coord
+    - multiverse.core.confirm
+    - multiverse.teleport.other.*
+    - multiverse.teleport.self.*
+    - mv.bypass.gamemode.*
+    - mcbans.ban.exempt
+    - mcbans.kick.exempt
+    - mcbans.hideview
+    - mcbans.view.staff
+    - mcbans.unban
+    - mcbans.ban.global
+    - mcbans.admin
+    - holograms.*
+    - herochat.color.colortype.channel
+    - herochat.admin.stealth
+    - herochat.modify.verbose.*
+    - herochat.modify.password.*
+    - herochat.modify.shortcut.*
+    - herochat.modify.format.*
+    - herochat.modify.distance.*
+    - herochat.modify.color.*
+    - herochat.modify.nick.*
+    - herochat.focus.owner
+    - herochat.autojoin.owner
+    - herochat.color.*
+    - herochat.remove.*
+    - herochat.speak.owner
+    - herochat.join.owner
+    - herochat.emote.*
+    - herochat.emote
+    - herochat.reload
+    - herochat.save
+    - herochat.create
+    - essentials.silentquit
+    - essentials.signs.use.warp
+    - essentials.signs.use.repair
+    - essentials.signs.use.kit
+    - essentials.signs.use.heal
+    - essentials.signs.create.warp
+    - essentials.signs.create.repair
+    - essentials.signs.create.kit
+    - essentials.signs.create.heal
+    - essentials.signs.break.warp
+    - essentials.signs.break.repair
+    - essentials.signs.break.kit
+    - essentials.signs.break.heal
+    - essentials.joinfullserver
+    - essentials.geoip.show
+    - essentials.silentjoin
+    - essentials.tptoggle.others
+    - essentials.tptoggle
+    - essentials.tpohere
+    - essentials.tpo
+    - essentials.top
+    - essentials.warp.overwrite.*
+    - essentials.setwarp
+    - essentials.sethome.others
+    - essentials.sethome.multiple.unlimited
+    - essentials.jump
+    - essentials.home.others
+    - essentials.delwarp
+    - essentials.delhome.others
+    - essentials.back.ondeath
+    - essentials.setspawn
+    - essentials.vanish.see
+    - essentials.vanish.others
+    - essentials.vanish.interact
+    - essentials.sudo
+    - essentials.spawnmob.*
+    - essentials.spawnmob
+    - essentials.socialspy
+    - essentials.invsee.modify
+    - essentials.gc
+    - essentials.ext
+    - essentials.essentials
+    - essentials.enderchest.modify
+    - essentials.enderchest
+    - essentials.clearinventory
+    - essentials.powertooltoggle
+    - essentials.powertool.append
+    - essentials.powertool
+    - essentials.nick.others
+    - essentials.nick.format
+    - essentials.nick.color
+    - essentials.nick
+    - essentials.near.others
+    - essentials.near.maxexempt
+    - essentials.list.hidden
+    - essentials.book.title
+    - essentials.book.others
+    - essentials.book.author
+    - essentials.book
+    - essentials.afk.others
+    - essentials.workbench
+    - essentials.time.set
+    - essentials.speed.others
+    - essentials.skull.others
+    - essentials.skull.modify
+    - essentials.repair.enchanted
+    - essentials.repair.armor
+    - essentials.repair.all
+    - essentials.repair
+    - essentials.ptime
+    - essentials.kits.*
+    - essentials.kit.others
+    - essentials.kit.exemptdelay
+    - essentials.heal.others
+    - essentials.heal
+    - essentials.god.others
+    - essentials.god
+    - essentials.give
+    - essentials.gamemode.others
+    - essentials.gamemode
+    - essentials.fly.others
+    - essentials.feed.others
+    - essentials.feed
+    - essentials.exp.set.others
+    - essentials.exp.set
+    - essentials.exp.others
+    - essentials.exp.give.others
+    - essentials.exp.give
+    - essentials.enchantments.*
+    - essentials.enchant
+    - enjin.points.getothers
+    - enjin.points.set
+    - enjin.points.remove
+    - enjin.points.add
+    - enjin.notify.connectionstatus
+    - enjin.lag
+    - enjin.inform
+    - enjin.broadcast
+    - citizens.npc.tphere
+    - citizens.npc.skeletontype
+    - citizens.npc.size
+    - citizens.npc.select
+    - citizens.npc.rename
+    - citizens.npc.remove
+    - citizens.npc.profession
+    - citizens.npc.power
+    - citizens.pose
+    - citizens.npc.owner
+    - citizens.npc.mount
+    - citizens.npc.moveto
+    - citizens.npc.list
+    - citizens.npc.edit.equip
+    - citizens.npc.create.*
+    - citizens.npc.copy
+    - citizens.npc.controllable.*
+    - citizens.npc.age
+    - citizens.template.help
+    - citizens.trait.help
+    - citizens.npc.help
+    - citizens.help
+    - citizens.admin.avoid-limits
+    - citizens.admin
+    - bukkit.command.plugins
+    - bukkit.command.version
+    - bukkit.command.gamerule
+    - bukkit.command.whitelist.reload
+    - bukkit.command.whitelist.list
+    - bukkit.command.whitelist.remove
+    - bukkit.command.whitelist.add
+    - bukkit.command.whitelist.disable
+    - bukkit.command.whitelist.enable
+    - bukkit.command.save.perform
+    - bukkit.command.op.take
+    - bukkit.command.op.give
+    - -essentials.silentjoin.vanish
+  olddnriron:
+    permissions:
+    - herochat.color.*.global
+    - herochat.color.global
+    - essentials.joinfullserver
+    worlds:
+      Xiloo:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Blazon:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Sesa:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Silvane:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Ozia:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Plade:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Nios:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+      Mirum:
+        permissions:
+        - worldedit.navigation.jumpto.tool
+        - essentials.sethome.multiple.iron
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.ptime
+    options:
+      rank: '400'
+      prefix: '&2[&2Donor&2]&2'
+      rank-ladder: donors
+    inheritance: [] 
+  olddnrgold:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.nick
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.firework
+      Centro:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+      Sesa:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.firework
+        - essentials.top
+      Ozia:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.skull.others
+        - essentials.firework
+        - essentials.top
+      Xiloo:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.firework
+        - essentials.top
+      Silvane:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.firework
+        - essentials.top
+      Plade:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.skull.others
+        - essentials.firework
+        - essentials.top
+      Nios:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.skull.others
+        - essentials.firework
+        - essentials.top
+      Mirum:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.skull.others
+        - essentials.firework
+        - essentials.top
+      MGHub:
+        permissions:
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+    options:
+      rank: '300'
+      prefix: '&2[&2Donor&2]&2'
+      rank-ladder: donors
+    inheritance:
+    - olddnriron
+  olddnrdiamond:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.nick.color
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+        - essentials.speed
+      Sesa:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+        - essentials.speed
+      Xiloo:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+        - essentials.speed
+      Silvane:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+        - essentials.speed
+      Ozia:
+        permissions:
+        - essentials.speed
+      Plade:
+        permissions:
+        - essentials.speed
+      Nios:
+        permissions:
+        - essentials.speed
+      MGHub:
+        permissions:
+        - essentials.speed
+      Mirum:
+        permissions:
+        - essentials.speed
+    options:
+      rank: '200'
+      prefix: '&2[&2Donor&2]&2'
+      rank-ladder: donors
+    inheritance:
+    - olddnrgold
+  olddnremerald:
+    permissions:
+    - herochat.color.*.*
+    - essentials.joinfullserver
+    - herochat.color.*.global
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.near
+        - essentials.back.ondeath
+        - itemswitcher.switcher
+        - essentials.back
+        - alphachest.chest
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Centro:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - essentials.back.ondeath
+        - essentials.back
+        - alphachest.chest
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Sesa:
+        permissions:
+        - essentials.near
+        - essentials.back.ondeath
+        - itemswitcher.switcher
+        - essentials.back
+        - alphachest.chest
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Ozia:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - itemswitcher.switcher
+        - essentials.back.ondeath
+        - essentials.back
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Plade:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - itemswitcher.switcher
+        - essentials.back.ondeath
+        - essentials.back
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Xiloo:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - itemswitcher.switcher
+        - essentials.back.ondeath
+        - essentials.back
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Silvane:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - alphachest.chest
+        - itemswitcher.switcher
+        - essentials.back.ondeath
+        - essentials.back
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Mirum:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - alphachest.chest
+        - itemswitcher.switcher
+        - essentials.back.ondeath
+        - essentials.back
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Nios:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - alphachest.chest
+        - itemswitcher.switcher
+        - essentials.back.ondeath
+        - essentials.back
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+    options:
+      rank: '100'
+      prefix: '&2[&2Donor&2]&2'
+      rank-ladder: donors
+    inheritance:
+    - olddnrdiamond
+  olddnrdisguiseanimal:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Nios:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Mirum:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      skyhub:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      skylu:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      zinlu:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrdisguisemobs:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrdisguisehumanoid:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrdisguisetransportation:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrdisguiseotherworlds:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+  olddnrfunpackage:
+    permissions:
+    - essentials.joinfullserver
+    - olddnrdisguiseanimal
+    - olddnrdisguisetransportation
+    - olddnrdisguisehumanoid
+    - olddnrdisguiseotherworlds
+    - olddnrdisguisemobs
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrnick:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.nick
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrmultihome1:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.oldmh1
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrmultihome2:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.oldmh2
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrmultihome3:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.oldmh3
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrmultihome4:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.oldmh4
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrpersonalwarp:
+    permissions:
+    - essentials.joinfullserver
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrnickplus:
+    permissions:
+    - essentials.nick
+    - essentials.joinfullserver
+    - essentials.nick.color
+  olddnrskyblocks:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Skylu:
+        permissions:
+        - worldguard.stack
+        - essentials.ptime
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.workbench
+        - essentials.speed
+        - essentials.top
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1209
+      zinlu:
+        permissions:
+        - worldguard.stack
+        - essentials.ptime
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.workbench
+        - essentials.speed
+        - essentials.top
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1209
+      Skyhub:
+        permissions:
+        - worldguard.stack
+        - essentials.ptime
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.workbench
+        - essentials.speed
+        - essentials.top
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1209
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrworldedit:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Ozia:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+      Plade:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrvoxelsniper:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Ozia:
+        permissions:
+        - vsr.plotme
+        - voxelsniper.sniper
+        - voxelsniper.brush.ball
+        - voxelsniper.brush.biome
+        - voxelsniper.brush.blendball
+        - voxelsniper.brush.blenddisc
+        - voxelsniper.brush.blendvoxel
+        - voxelsniper.brush.blendvoxeldisc
+        - voxelsniper.brush.blob
+        - voxelsniper.brush.cleansnow
+        - voxelsniper.brush.clonestamp
+        - voxelsniper.brush.copypasta
+        - voxelsniper.brush.cylinder
+        - voxelsniper.brush.disc
+        - voxelsniper.brush.discface
+        - voxelsniper.brush.dome
+        - voxelsniper.brush.drain
+        - voxelsniper.brush.ellipse
+        - voxelsniper.brush.ellipsoid
+        - voxelsniper.brush.eraser
+        - voxelsniper.brush.erode
+        - voxelsniper.brush.extrude
+        - voxelsniper.brush.filldown
+        - voxelsniper.brush.jaggedline
+        - voxelsniper.brush.line
+        - voxelsniper.brush.move
+        - voxelsniper.brush.overlay
+        - voxelsniper.brush.painting
+        - voxelsniper.brush.pull
+        - voxelsniper.brush.ring
+        - voxelsniper.brush.rot2d
+        - voxelsniper.brush.rot2dvert
+        - voxelsniper.brush.rot3d
+        - voxelsniper.brush.rules
+        - voxelsniper.brush.scanner
+        - voxelsniper.brush.set
+        - voxelsniper.brush.shellball
+        - voxelsniper.brush.shellset
+        - voxelsniper.brush.shellvoxel
+        - voxelsniper.brush.signoverwrite
+        - voxelsniper.brush.snipe
+        - voxelsniper.brush.spiralstaircase
+        - voxelsniper.brush.threepointcircle
+        - voxelsniper.brush.treesnipe
+        - voxelsniper.brush.triangle
+        - voxelsniper.brush.underlay
+        - voxelsniper.brush.voxel
+        - voxelsniper.brush.voxeldisc
+        - voxelsniper.brush.voxeldiscface
+        - voxelsniper.brush.snowcone
+      Plade:
+        permissions:
+        - vsr.plotme
+        - voxelsniper.sniper
+        - voxelsniper.brush.ball
+        - voxelsniper.brush.biome
+        - voxelsniper.brush.blendball
+        - voxelsniper.brush.blenddisc
+        - voxelsniper.brush.blendvoxel
+        - voxelsniper.brush.blendvoxeldisc
+        - voxelsniper.brush.blob
+        - voxelsniper.brush.cleansnow
+        - voxelsniper.brush.clonestamp
+        - voxelsniper.brush.copypasta
+        - voxelsniper.brush.cylinder
+        - voxelsniper.brush.disc
+        - voxelsniper.brush.discface
+        - voxelsniper.brush.dome
+        - voxelsniper.brush.drain
+        - voxelsniper.brush.ellipse
+        - voxelsniper.brush.ellipsoid
+        - voxelsniper.brush.eraser
+        - voxelsniper.brush.erode
+        - voxelsniper.brush.extrude
+        - voxelsniper.brush.filldown
+        - voxelsniper.brush.jaggedline
+        - voxelsniper.brush.line
+        - voxelsniper.brush.move
+        - voxelsniper.brush.overlay
+        - voxelsniper.brush.painting
+        - voxelsniper.brush.pull
+        - voxelsniper.brush.ring
+        - voxelsniper.brush.rot2d
+        - voxelsniper.brush.rot2dvert
+        - voxelsniper.brush.rot3d
+        - voxelsniper.brush.rules
+        - voxelsniper.brush.scanner
+        - voxelsniper.brush.set
+        - voxelsniper.brush.shellball
+        - voxelsniper.brush.shellset
+        - voxelsniper.brush.shellvoxel
+        - voxelsniper.brush.signoverwrite
+        - voxelsniper.brush.snipe
+        - voxelsniper.brush.spiralstaircase
+        - voxelsniper.brush.threepointcircle
+        - voxelsniper.brush.treesnipe
+        - voxelsniper.brush.triangle
+        - voxelsniper.brush.underlay
+        - voxelsniper.brush.voxel
+        - voxelsniper.brush.voxeldisc
+        - voxelsniper.brush.voxeldiscface
+        - voxelsniper.brush.snowcone
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnreditpackage:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Ozia:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+        - vsr.plotme
+        - voxelsniper.sniper
+        - voxelsniper.brush.ball
+        - voxelsniper.brush.biome
+        - voxelsniper.brush.blendball
+        - voxelsniper.brush.blenddisc
+        - voxelsniper.brush.blendvoxel
+        - voxelsniper.brush.blendvoxeldisc
+        - voxelsniper.brush.blob
+        - voxelsniper.brush.cleansnow
+        - voxelsniper.brush.clonestamp
+        - voxelsniper.brush.copypasta
+        - voxelsniper.brush.cylinder
+        - voxelsniper.brush.disc
+        - voxelsniper.brush.discface
+        - voxelsniper.brush.dome
+        - voxelsniper.brush.drain
+        - voxelsniper.brush.ellipse
+        - voxelsniper.brush.ellipsoid
+        - voxelsniper.brush.eraser
+        - voxelsniper.brush.erode
+        - voxelsniper.brush.extrude
+        - voxelsniper.brush.filldown
+        - voxelsniper.brush.jaggedline
+        - voxelsniper.brush.line
+        - voxelsniper.brush.move
+        - voxelsniper.brush.overlay
+        - voxelsniper.brush.painting
+        - voxelsniper.brush.pull
+        - voxelsniper.brush.ring
+        - voxelsniper.brush.rot2d
+        - voxelsniper.brush.rot2dvert
+        - voxelsniper.brush.rot3d
+        - voxelsniper.brush.rules
+        - voxelsniper.brush.scanner
+        - voxelsniper.brush.set
+        - voxelsniper.brush.shellball
+        - voxelsniper.brush.shellset
+        - voxelsniper.brush.shellvoxel
+        - voxelsniper.brush.signoverwrite
+        - voxelsniper.brush.snipe
+        - voxelsniper.brush.spiralstaircase
+        - voxelsniper.brush.threepointcircle
+        - voxelsniper.brush.treesnipe
+        - voxelsniper.brush.triangle
+        - voxelsniper.brush.underlay
+        - voxelsniper.brush.voxel
+        - voxelsniper.brush.voxeldisc
+        - voxelsniper.brush.voxeldiscface
+        - voxelsniper.brush.snowcone
+      Plade:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+        - vsr.plotme
+        - voxelsniper.sniper
+        - voxelsniper.brush.ball
+        - voxelsniper.brush.biome
+        - voxelsniper.brush.blendball
+        - voxelsniper.brush.blenddisc
+        - voxelsniper.brush.blendvoxel
+        - voxelsniper.brush.blendvoxeldisc
+        - voxelsniper.brush.blob
+        - voxelsniper.brush.cleansnow
+        - voxelsniper.brush.clonestamp
+        - voxelsniper.brush.copypasta
+        - voxelsniper.brush.cylinder
+        - voxelsniper.brush.disc
+        - voxelsniper.brush.discface
+        - voxelsniper.brush.dome
+        - voxelsniper.brush.drain
+        - voxelsniper.brush.ellipse
+        - voxelsniper.brush.ellipsoid
+        - voxelsniper.brush.eraser
+        - voxelsniper.brush.erode
+        - voxelsniper.brush.extrude
+        - voxelsniper.brush.filldown
+        - voxelsniper.brush.jaggedline
+        - voxelsniper.brush.line
+        - voxelsniper.brush.move
+        - voxelsniper.brush.overlay
+        - voxelsniper.brush.painting
+        - voxelsniper.brush.pull
+        - voxelsniper.brush.ring
+        - voxelsniper.brush.rot2d
+        - voxelsniper.brush.rot2dvert
+        - voxelsniper.brush.rot3d
+        - voxelsniper.brush.rules
+        - voxelsniper.brush.scanner
+        - voxelsniper.brush.set
+        - voxelsniper.brush.shellball
+        - voxelsniper.brush.shellset
+        - voxelsniper.brush.shellvoxel
+        - voxelsniper.brush.signoverwrite
+        - voxelsniper.brush.snipe
+        - voxelsniper.brush.spiralstaircase
+        - voxelsniper.brush.threepointcircle
+        - voxelsniper.brush.treesnipe
+        - voxelsniper.brush.triangle
+        - voxelsniper.brush.underlay
+        - voxelsniper.brush.voxel
+        - voxelsniper.brush.voxeldisc
+        - voxelsniper.brush.voxeldiscface
+        - voxelsniper.brush.snowcone
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrmovement:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      MGHub:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+      Centro:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Sesa:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Ozia:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Xiloo:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Silvane:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Plade:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Nios:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Mirum:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrcraftbook:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Xiloo:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Silvane:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Blazon:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Sesa:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Ozia:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Plade:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Nios:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Mirum:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrextracommands:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Centro:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Sesa:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Ozia:
+        permissions:
+        - essentials.near
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Xiloo:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Silvane:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Plade:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Nios:
+        permissions:
+        - essentials.near
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Mirum:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrflySurvival:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Xiloo:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrflyotherworlds:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Sesa:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Silvane:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  olddnrflypackage:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Sesa:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Xiloo:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Silvane:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+  dnrotherworldsdisguises:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+        permissions:
+        - libsdisguises.disguise.enderman.setburning.setagressive.setiteminhand
+        - libsdisguises.disguise.witherskeleton.setburning
+        - libsdisguises.disguise.pigzombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.magmacube.setburning
+        - libsdisguises.disguise.blaze.setburning.setblazing
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnranimaldisguises:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Nios:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+      Mirum:
+        permissions:
+        - libsdisguises.disguise.wolf.setbaby.setburning.setangry.setcollarcolor.setsitting.settamed
+        - libsdisguises.disguise.ocelot.setbaby.setburning.setsitting.settamed.settype
+        - libsdisguises.disguise.mushroomcow.setbaby.setburning
+        - libsdisguises.disguise.pig.setbaby.setburning.setsaddled
+        - libsdisguises.disguise.chicken.setbaby.setburning
+        - libsdisguises.disguise.cow.setbaby.setburning
+        - libsdisguises.disguise.sheep.setbaby.setburning.setcolor.setsheared
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrhumanoiddisguises:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Nios:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+      Mirum:
+        permissions:
+        - libsdisguises.disguise.skeleton.setburning
+        - libsdisguises.disguise.zombie.setbaby.setburning.setvillager
+        - libsdisguises.disguise.snowman.setburning
+        - libsdisguises.disguise.witch.setburning
+        - libsdisguises.disguise.zombievillager.setbaby.setburning.setvillager
+        - libsdisguises.disguise.villager.setbaby.setburning.setprofession
+        - libsdisguises.disguise.iron_golem.setburning
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrmobdisguises:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Nios:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+      Mirum:
+        permissions:
+        - libsdisguises.disguise.creeper.setburning.setpowered
+        - libsdisguises.disguise.squid.setburning
+        - libsdisguises.disguise.silverfish.setburning
+        - libsdisguises.disguise.slime.setburning
+        - libsdisguises.disguise.cave_spider.setburning
+        - libsdisguises.disguise.spider.setburning
+        - libsdisguises.disguise.bat.setburning.setflying
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrtransportationdisguises:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Centro:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Sesa:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Ozia:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Xiloo:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Silvane:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Plade:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Nios:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+      Mirum:
+        permissions:
+        - libsdisguises.disguise.skeletonhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.horse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.undeadhorse.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.mule.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.donkey.setbaby.setburning.setcarryingchest.setcolor.setsaddled.setstyle.settamed
+        - libsdisguises.disguise.minecart.setburning.setblockincart
+        - libsdisguises.disguise.boat.setburning
+        - libsdisguises.undisguise
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrpersonalwarp:
+    permissions:
+    - essentials.joinfullserver
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrmultihome1:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.mh1
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrmultihome2:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.mh2
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrmultihome3:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.mh3
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrmultihome4:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.sethome.multiple.mh4
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnradvancedchatpackage:
+    permissions:
+    - essentials.joinfullserver
+    - essentials.nick
+    - essentials.nick.color
+    - herochat.color.*.global
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrskyblocks:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Skylu:
+        permissions:
+        - worldguard.stack
+        - essentials.ptime
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.workbench
+        - essentials.speed
+        - essentials.top
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1209
+      zinlu:
+        permissions:
+        - worldguard.stack
+        - essentials.ptime
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.workbench
+        - essentials.speed
+        - essentials.top
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1209
+      Skyhub:
+        permissions:
+        - worldguard.stack
+        - essentials.ptime
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.workbench
+        - essentials.speed
+        - essentials.top
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1209
+    options:
+      prefix: '&2[&2Donor&2]&2'
+  dnrworldedit:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Ozia:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+      Plade:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrcraftbook:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Xiloo:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Silvane:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Blazon:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Sesa:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Ozia:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Plade:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Nios:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+      Mirum:
+        permissions:
+        - craftbook.ic.mc1111
+        - craftbook.ic.mc1110
+        - craftbook.mech.ammeter.use
+        - craftbook.mech.lightstone.use
+        - craftbook.mech.paintingswitch.use
+        - craftbook.mech.bridge
+        - craftbook.mech.cook
+        - craftbook.mech.dgate
+        - craftbook.mech.door
+        - craftbook.mech.elevator
+        - craftbook.mech.gate
+        - craftbook.mech.hiddenswitch
+        - craftbook.mech.light-switch
+        - craftbook.ic.mc1017
+        - craftbook.ic.mc1018
+        - craftbook.ic.mc1209
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrextracommands:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - itemswitcher.switcher
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Centro:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Sesa:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Ozia:
+        permissions:
+        - essentials.near
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Xiloo:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Silvane:
+        permissions:
+        - essentials.near
+        - alphachest.chest
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Plade:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Nios:
+        permissions:
+        - essentials.near
+        - itemswitcher.switcher
+        - worldguard.stack
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+      Mirum:
+        permissions:
+        - essentials.near
+        - worldguard.stack
+        - itemswitcher.switcher
+        - worldguard.stack.illegitimate
+        - essentials.feed
+        - essentials.firework
+        - essentials.powertool
+        - essentials.powertooltoggle
+        - essentials.top
+        - essentials.ptime
+        - essentials.workbench
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrmovement:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      MGHub:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+      Centro:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Sesa:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Ozia:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Xiloo:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Silvane:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Plade:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Nios:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+      Mirum:
+        permissions:
+        - multiverse.teleport.self.Centro
+        - multiverse.teleport.self.Xiloo
+        - multiverse.teleport.self.Silvane
+        - multiverse.teleport.self.Blazon
+        - multiverse.teleport.self.Sesa
+        - multiverse.teleport.self.Ozia
+        - multiverse.teleport.self.MGHub
+        - essentials.teleport.cooldown.bypass
+        - essentials.teleport.timer.bypass
+        - essentials.speed
+        - essentials.back.ondeath
+        - essentials.back
+        - worldedit.navigation.jumpto.tool
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnralldisguises:
+    permissions:
+    - essentials.joinfullserver
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance:
+    - dnrdisguiseanimal
+    - dnrdisguisetransportation
+    - dnrdisguisehumanoid
+    - dnrdisguiseotherworlds
+    - dnrdisguisemobs
+  dnrcreativepackage:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Ozia:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+        - vsr.plotme
+        - voxelsniper.sniper
+        - voxelsniper.brush.ball
+        - voxelsniper.brush.biome
+        - voxelsniper.brush.blendball
+        - voxelsniper.brush.blenddisc
+        - voxelsniper.brush.blendvoxel
+        - voxelsniper.brush.blendvoxeldisc
+        - voxelsniper.brush.blob
+        - voxelsniper.brush.cleansnow
+        - voxelsniper.brush.clonestamp
+        - voxelsniper.brush.copypasta
+        - voxelsniper.brush.cylinder
+        - voxelsniper.brush.disc
+        - voxelsniper.brush.discface
+        - voxelsniper.brush.dome
+        - voxelsniper.brush.drain
+        - voxelsniper.brush.ellipse
+        - voxelsniper.brush.ellipsoid
+        - voxelsniper.brush.eraser
+        - voxelsniper.brush.erode
+        - voxelsniper.brush.extrude
+        - voxelsniper.brush.filldown
+        - voxelsniper.brush.jaggedline
+        - voxelsniper.brush.line
+        - voxelsniper.brush.move
+        - voxelsniper.brush.overlay
+        - voxelsniper.brush.painting
+        - voxelsniper.brush.pull
+        - voxelsniper.brush.ring
+        - voxelsniper.brush.rot2d
+        - voxelsniper.brush.rot2dvert
+        - voxelsniper.brush.rot3d
+        - voxelsniper.brush.rules
+        - voxelsniper.brush.scanner
+        - voxelsniper.brush.set
+        - voxelsniper.brush.shellball
+        - voxelsniper.brush.shellset
+        - voxelsniper.brush.shellvoxel
+        - voxelsniper.brush.signoverwrite
+        - voxelsniper.brush.snipe
+        - voxelsniper.brush.spiralstaircase
+        - voxelsniper.brush.threepointcircle
+        - voxelsniper.brush.treesnipe
+        - voxelsniper.brush.triangle
+        - voxelsniper.brush.underlay
+        - voxelsniper.brush.voxel
+        - voxelsniper.brush.voxeldisc
+        - voxelsniper.brush.voxeldiscface
+        - voxelsniper.brush.snowcone
+        - essentials.skull.others
+        - essentials.ptime
+        - voxelsniper.sniper
+        - essentials.skull.others
+        - essentials.skull
+        - essentials.skull.spawn
+      Plade:
+        permissions:
+        - worldedit.brush.sphere
+        - worldedit.brush.cylinder
+        - worldedit.brush.smooth
+        - worldedit.brush.gravity
+        - worldedit.wand.toggle
+        - worldedit.wand
+        - worldedit.selection.expand
+        - worldedit.selection.hpos
+        - worldedit.selection.pos
+        - worldedit.region.faces
+        - worldedit.region.hollow
+        - worldedit.region.naturalize
+        - worldedit.region.overlay
+        - worldedit.region.replace
+        - worldedit.region.set
+        - worldedit.region.smooth
+        - worldedit.region.stack
+        - worldedit.region.walls
+        - worldedit.history.clear
+        - worldedit.history.redo
+        - worldedit.history.undo
+        - worldedit.generation.cylinder
+        - worldedit.generation.pyramid
+        - worldedit.generation.shape
+        - worldedit.generation.sphere
+        - worldedit.clipboard.copy
+        - worldedit.clipboard.cut
+        - worldedit.clipboard.flip
+        - worldedit.clipboard.paste
+        - worldedit.clipboard.rotate
+        - vsr.plotme
+        - voxelsniper.sniper
+        - voxelsniper.brush.ball
+        - voxelsniper.brush.biome
+        - voxelsniper.brush.blendball
+        - voxelsniper.brush.blenddisc
+        - voxelsniper.brush.blendvoxel
+        - voxelsniper.brush.blendvoxeldisc
+        - voxelsniper.brush.blob
+        - voxelsniper.brush.cleansnow
+        - voxelsniper.brush.clonestamp
+        - voxelsniper.brush.copypasta
+        - voxelsniper.brush.cylinder
+        - voxelsniper.brush.disc
+        - voxelsniper.brush.discface
+        - voxelsniper.brush.dome
+        - voxelsniper.brush.drain
+        - voxelsniper.brush.ellipse
+        - voxelsniper.brush.ellipsoid
+        - voxelsniper.brush.eraser
+        - voxelsniper.brush.erode
+        - voxelsniper.brush.extrude
+        - voxelsniper.brush.filldown
+        - voxelsniper.brush.jaggedline
+        - voxelsniper.brush.line
+        - voxelsniper.brush.move
+        - voxelsniper.brush.overlay
+        - voxelsniper.brush.painting
+        - voxelsniper.brush.pull
+        - voxelsniper.brush.ring
+        - voxelsniper.brush.rot2d
+        - voxelsniper.brush.rot2dvert
+        - voxelsniper.brush.rot3d
+        - voxelsniper.brush.rules
+        - voxelsniper.brush.scanner
+        - voxelsniper.brush.set
+        - voxelsniper.brush.shellball
+        - voxelsniper.brush.shellset
+        - voxelsniper.brush.shellvoxel
+        - voxelsniper.brush.signoverwrite
+        - voxelsniper.brush.snipe
+        - voxelsniper.brush.spiralstaircase
+        - voxelsniper.brush.threepointcircle
+        - voxelsniper.brush.treesnipe
+        - voxelsniper.brush.triangle
+        - voxelsniper.brush.underlay
+        - voxelsniper.brush.voxel
+        - voxelsniper.brush.voxeldisc
+        - voxelsniper.brush.voxeldiscface
+        - voxelsniper.brush.snowcone
+        - essentials.skull.others
+        - essentials.ptime
+        - voxelsniper.sniper
+        - essentials.skull.others
+        - essentials.skull
+        - essentials.skull.spawn
+      Nios:
+        permissions:
+        - essentials.skull.others
+        - essentials.skull
+        - essentials.skull.spawn
+      Mirum:
+        permissions:
+        - essentials.skull.others
+        - essentials.skull
+        - essentials.skull.spawn
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrflySurvival:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Xiloo:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrflyotherworlds:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Sesa:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Silvane:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []
+  dnrflypackage:
+    permissions:
+    - essentials.joinfullserver
+    worlds:
+      Blazon:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Sesa:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Xiloo:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+      Silvane:
+        permissions:
+        - essentials.fly
+        - essentials.fly.safelogin
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance: []  
+  dnrallpackages:
+    permissions:
+    - essentials.joinfullserver
+    options:
+      prefix: '&2[&2Donor&2]&2'
+    inheritance:
+    - dnrflypackage
+    - dnralldisguises
+    - dnrcreativepackage
+    - dnrmultihome1
+    - dnradvancedchatpackage
+    - dnrskyblocks
+    - dnrcraftbook
+    - dnrextracommands
+    - dnrmovementpackage
