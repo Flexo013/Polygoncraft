@@ -8,11 +8,11 @@
 8. (Jun)   JokerOfFire      Fantasy
 9. (Jul)   Venestor         Castles
 10.(Aug)   Firetheft        Internet
-11.(Sep)   NEWDeStRoT1      Steampunk
+11.(Sep)   NEWDeStRoY1      Steampunk
 12.(Oct)   katemania        Apocalyptic Halloween
 13.(Nov)   rct3333          Tree Houses
 14.(Dec)   dunkeschnoodle   PolygonCraft 2013
-15:(Jan)   Gabbel           Elements
+15.(Jan)   Gabbel           Elements
 16.(Feb)   theeggmanlives   Winter Olympics
 17.(Mar)   katemania        Western
 18.(Apr)   captainawesome   Kingdom
@@ -24,3 +24,4 @@ MBO1.(Aug) Rct,Daan,Butter  City
 23.(Oct)   katemania        Disney
 (Halloween Pumpkin Carving - Winner: tkillen96)
 24.(Nov)   Clumsy_Kat9      Easter
+25.(Dec)                    Stone Age
