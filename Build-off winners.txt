@@ -28,7 +28,7 @@ MBO1.(Aug)  Rct,Daan,Butter   City
 26.(Jan)    katemania         Tower
 27.(Feb)    Riellia           Future
 28.(Mar)    CountBunny        Evil
-29.(Apr)    cman003           Wild and Overgrown (Mini: Connect4)
+29.(Apr)    cman003           Wild and Overgrown (Mini: played a Connect4 game)
 30.(May)    bhuinda           Village
 31.(Jun)    FINNCEPTION       Carnival
 MBO2.(Jul)  muffindragon333   Sci-Fi
@@ -44,4 +44,6 @@ MBO2.(Jul)  muffindragon333   Sci-Fi
 40.(Apr)    YoshiBoy57        Arcade
 41.(May)    Harki42           Summer
 42.(Jun)    Andy68758         Sky
-MBO3.(Jul)
+MBO3.(Jul)  Harki42           Gothic
+43.(Aug)    Otherworldly      theeggmanlives
+44.(Sep)    
